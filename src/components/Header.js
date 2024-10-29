@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-      <h1>Wesley Vane</h1>
+      <h1>Wesley Vane: ATS</h1>
       <nav>
         <ul>
           <li>
