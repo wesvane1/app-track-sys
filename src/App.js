@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import NoPage from './pages/NoPage'
+import DBTest from './pages/DBTest';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/home" element={<Home />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Register />}/>
+          <Route path="/dataTest" element={<DBTest />}/>
           <Route path="*" element={<NoPage />}/>
         </Routes>
       </BrowserRouter>
